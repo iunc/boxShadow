@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --clr: #3adc91;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--clr);
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .box {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    background: var(--clr);
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.1);
+}
+.shadow1 {
+    box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+.shadow2 {
+    box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1),
+        inset -10px -10px 10px rgba(255, 255, 255, 0.2), inset 15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+.shadow3 {
+    box-shadow: inset 4px 4px 5px rgba(255, 255, 255, 0.3), inset -4px -4px 5px rgba(0, 0, 0, 0.1),
+        10px 40px 40px rgba(0, 0, 0, 0.1);
+}
+.shadow4 {
+    border: 10px solid var(--clr);
+    box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.1),
+        inset -10px -10px 10px rgba(255, 255, 255, 0.2), inset 15px 15px 15px rgba(0, 0, 0, 0.1);
+}
